@@ -1,85 +1,164 @@
 <!DOCTYPE html>
-<html lang="en">
-   <head>
-       <meta charset="utf-8">
-       <title>Pico</title>
-       <link rel="stylesheet" href="css/font-awesome.min.css">
-       <link rel="stylesheet" href="css/style.css">
-       <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700" rel="stylesheet"> 
-   </head>
-   <body>
-       <div class="mainWrapper">
-           <div class="topContent">
-               <div class="logo">
-                   <h1>PICO</h1>
-               </div>
-               <div class="menubar">
-                   <ul>
-                       <li><a href="">Home</a></li>
-                       <li><a href="">DOCS</a></li>
-                       <li><a href="">DOWNLOAD</a></li>
-                   </ul>
-               </div>
-           </div>
-           <div class="upperWrapper clearfix">
-               <div class="headerBlock">
-                   <div class="header">
-                       <h1>Introducing <span class="headerText">PICO.</span></h1>
-                   </div>
-                   <div class="headerBottom">
-                       <p>A stupidly <span class="italic">simple</span>
-                           <span class="redText">&</span> blazing <span class="italic">fast</span>, flat file CMS.</p>
-                       
-                       <p>Making the web easy.</p>
-                   </div>
-                   <button class="downloadButton">Download now</button>
-               </div>
-           </div>
-           <div class="middleContent">
-               <div class="singleContent">
-                   <i class="fa fa-thumbs-up" aria-hidden="true"></i>
-                   <h3 class="biggerText">Stupidly Simple</h3>
-                   <p>Picos makes creating and maintaining a website as simple as editing text files.</p>
-               </div>
-               <div class="singleContent">
-                   <i class="fa fa-tachometer" aria-hidden="true"></i>
-                   <h3 class="biggerText">Blazing Fast</h3>
-                   <p>Pico is seriously lightweight and doesn't use a database, making it super fast.</p>
-               </div>
-               <div class="singleContent">
-                   <i class="fa fa-database" aria-hidden="true"></i>
-                   <h3 class="biggerText">No Database</h3>
-                   <p>Pico is "flat file" CMS, meaning no database woe's no MySQL queries, nothing.</p>
-               </div>
-               <div class="singleContent">
-                   <i class="fa fa-font" aria-hidden="true"></i>
-                   <h3 class="biggerText">Markdown Formatting</h3>
-                   <p>Edit your website in your favorite editor using simple Markdown formatting.</p>
-               </div>
-               <div class="singleContent">
-                   <i class="fa fa-paint-brush" aria-hidden="true"></i>
-                   <h3 class="biggerText">Twig Templates</h3>
-                   <p>Pico uses the <span class="redText">Twig</span> templating engine, for powerful and flexible themese.</p>
-               </div>
-               <div class="singleContent">
-                   <i class="fa fa-code-fork" aria-hidden="true"></i>
-                   <h3 class="biggerText">Open Source</h3>
-                   <p>Pico is completely free and open source, released under the MIT license.</p>
-               </div>
-           </div>
-           <div class="bottomWrapper">
-               <div class="contributeText"><h3>Want to contribute?</h3></div>
-               <div class="helpText">
-                   <p>Help make Pico better by checking out the <span class="redText">GitHub Repository</span> and submitting pull requests.</p>
-                   <p>If you find a bug please report it on the <span class="redText">issues page</span>.</p>
-               </div>
-               <div class="icons">
-                  <a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                    <a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                   
-               </div>
-           </div>
+<html>
+    <meta charset="utf-8">
+    
+<!--    header starts here-->
+    <head>
+        <title>Main page</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+    </head>
+    
+<!--    body starts here-->
+
+    <body>
+       <div class="firstWrap">
+           <div class="wrapper">
+            <div class="header">
+                <div class="emailAdrress">
+                    <p>info@CreativeStudio.com</p>
+                </div>
+                <div class="logo">
+                    <img src="images/logo.png" alt="logo">
+                </div>
+                <div class="menubar">
+                  
+                    <ul>
+                        <li><a href="">HOME</a></li>
+                        <li><a href="">ABOUT US</a></li>
+                        <li><a href="">portfolio</a></li>
+                        <li><a href="">services</a></li>
+                        <li><a href="">blog</a></li>
+                        <li><a href="">contact us</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="banner">
+                <div class="leftText">
+                    <h1>CREATIVE DESIGN SERVICES</h1>
+                    <div class="niceWork">
+                        <p>HERE'S SOME NICE WORK <span class="viewPortfolio"><a href="">VIEW PORTFOLIO <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a></span></p>
+                        
+                    </div>
+                    
+                </div>
+                <div class="sampleImage">
+                    <img src="images/sampleImages.png" alt="">
+                </div>
+            </div>
+            <div class="topIntro">
+                <div class="aboutUs">
+                <div class="title">
+                    <h2><i class="fa fa-long-arrow-right" aria-hidden="true"></i> ABOUT US</h2>
+                    
+                </div>
+                <div class="article">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci cupiditate voluptates numquam non odit, possimus doloribus, fugit officia repellendus nemo!</p>
+                </div>
+                <div class="readButton">
+                    <i class="fa fa-long-arrow-right" aria-hidden="true"></i><a href=""> READ</a>
+                </div>
+            </div>
+             <div class="ourBenefit">
+                <div class="title">
+                    <h2><i class="fa fa-long-arrow-right" aria-hidden="true"></i> OUR BENEFITS</h2>
+                    
+                </div>
+                <form action="">
+                    <input type="checkbox" name="input1" value="" class="inputs"><span class="checkBoxText">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, explicabo!<br></span>
+                    <input type="checkbox" name="input2" value="" class="inputs"><span class="checkBoxText">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, explicabo!<br></span>
+                    <input type="checkbox" name="input3" value="" class="inputs"><span class="checkBoxText">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, explicabo!<br></span>
+                    </form>
+            </div>
+             <div class="testimonials">
+                <div class="title">
+                    <h2><i class="fa fa-long-arrow-right" aria-hidden="true"></i> TESTIMONIALS</h2>
+                    
+                </div>
+                <div class="article">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci cupiditate voluptates numquam non odit, possimus doloribus, fugit officia repellendus nemo!</p>
+                </div>
+                <div class="author">
+                    <p><span class="italic">Rafi, Graphicsfuel.com</span>Rafi, Graphicsfuel.com</p>
+                </div>
+            </div>
+            </div>
+            
+            <div class="ourPortfolio">
+                <div class="title">
+                    <h2><i class="fa fa-long-arrow-right" aria-hidden="true"></i> OUR PORTFOLIOS</h2>
+                    
+                </div>
+                <div class="singleItem">
+                    <img src="images/skinDesign.jpg" alt="">
+                    <button type="button">VIEW <i class="fa fa-long-arrow-right" aria-hidden="true"></i></button>
+                </div>
+                <div class="singleItem">
+                    <img src="images/dreamLand.jpg" alt="">
+                    <button type="button">VIEW <i class="fa fa-long-arrow-right" aria-hidden="true"></i></button>
+                </div>
+                <div class="singleItem">
+                    <img src="images/socialWorthy.jpg" alt="">
+                    <button type="button">VIEW <i class="fa fa-long-arrow-right" aria-hidden="true"></i></button>
+                </div>
+                <div class="singleItem">
+                    <img src="images/moving.jpg" alt="">
+                    <button type="button">VIEW <i class="fa fa-long-arrow-right" aria-hidden="true"></i></button>
+                </div>
+            </div>
+            <div class="blogUpdates">
+                <div class="updates">
+                <div class="title2">
+                    <h2><i class="fa fa-long-arrow-right" aria-hidden="true"></i> BLOG UPDATES</h2>
+                    
+                </div>
+                <div class="article">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci cupiditate voluptates numquam non odit, possimus doloribus, fugit officia repellendus nemo!</p>
+                </div>
+                </div>
+                <div class="connect">
+                     <div class="title2">
+                    <h2><i class="fa fa-long-arrow-right" aria-hidden="true"></i> CONNECT WITH US</h2>
+                    <img src="images/twitter.png" alt="" class="socialIcon">
+                    <img src="images/facebook.png" alt="" class="socialIcon">
+                    <img src="images/icon1.png" alt="" class="socialIcon">
+                    <img src="images/feed.png" alt="" class="socialIcon">
+                    
+                </div>
+                </div>
+               
+                
+            
+            </div>
+        </div>
        </div>
-   </body>
-   
+        
+    </body>
+    
+    <footer>
+        <div class="wrapper2">
+          <div class="wrapper">
+              <div class="bottom">
+                <div class="menubar2">
+                    <ul>
+                            <li><a href="">Home</a></li>
+                            <li><a href="">About us</a></li>
+                            <li><a href="">Portfolio</a></li>
+                            <li><a href="">Services</a></li>
+                            <li><a href="">Blog</a></li>
+                            <li><a href="">Contact us</a></li>
+                    </ul>
+                    <p><i class="fa fa-copyright" aria-hidden="true"></i> 2010 CreativeStudio. All Rights Reserved</p>
+                </div>  
+                <div class="logo2">
+                    <img src="images/logo.png" alt="">
+                </div> 
+           </div>
+          </div>
+           
+            
+            
+        </div>
+    </footer>
+
 </html>
